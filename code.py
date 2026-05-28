@@ -8,7 +8,7 @@ try:
     encoding = tiktoken.get_encoding("cl100k_base")
     tokens =  encoding.encode(content)
     count = (len(tokens))
-    print("count is :",count)
+    print("Token count is :",count)
     cost = (count/1000) *0.002
     print("estimated cost is : $ ",round(cost,6))
 except FileNotFoundError:
