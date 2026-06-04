@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 #change made in subranch sub
->>>>>>> costupdate
 import tiktoken
 file_name=input("enter a file name: ")
 try:
