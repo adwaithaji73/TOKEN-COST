@@ -1,4 +1,3 @@
-#new branch created
 import tiktoken
 file_name=input("enter a file name: ")
 try:
