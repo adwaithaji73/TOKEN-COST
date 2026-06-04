@@ -9,7 +9,7 @@ try:
     tokens =  encoding.encode(content)
     count = (len(tokens))
     print("Token count is :",count)
-    cost = (count/1000) *0.002
+    cost = (count/1000) *0.003
     print("estimated cost is : $ ",round(cost,6))
 except FileNotFoundError:
     print("\nerror:file not found")
